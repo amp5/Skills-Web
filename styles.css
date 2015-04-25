@@ -1,0 +1,25 @@
+/*look up how to reference labels?*/
+
+/*maybe this will work?*/
+/*if this doesn't work may need to do them independently*/
+#text{
+	background-color: yellow
+
+}
+
+#submit{
+	background-color: yellow
+}
+
+/*what value does font-weight take? px? */
+firstname{
+	font-weight: 10px
+}
+
+
+/*anything else I need to enter in order for border to show?*/
+p{
+	border-width: 5 px
+	border: 0 auto
+
+}

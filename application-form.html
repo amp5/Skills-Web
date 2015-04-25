@@ -1,0 +1,35 @@
+<!DOCTYPE  HTML>
+<html>
+	<head>
+		<title>Application Form</title>
+		<!-- is this how you reference a css file here? -->
+		<style>
+			<link href="style.css">
+		</style>
+	</head>
+	<body>
+		<!-- add in action to go to /application route -->
+		<h1>Job Applicatio Form</h1>
+		<p> Thank you for considering a job at Ubermelon. We are excited to get to know you. But before we do, please take a moment to tell us a bit about yourself. Once you have submitted this form we will contact you if we feel you are a good fit for Ubermelon!
+		</p>
+
+		<form action>
+			<label>First Name<input type="text" name="firstname"></label>
+			<label>Last Name<input type="text" name="lastname"></label>
+			<label>What are your salary requirements?<input type="text" name="salary-requirements"></label>
+			<label> What job are you applying for?
+				<select>
+					<!-- object or option? NOT SURE WHAT TYPE IS...-->
+					<option type="SOMETHING" name="software engineer">Software Engineer
+					<option type="SOMETHING" name="qa engineer">QA Engineer
+					<option type="SOMETHING" name="producy manager">Product Manager
+				</select>
+			</label>
+			<!-- Form must go to /application must be POST request -->
+			<label> Press Submit:
+				<input type="submit" name="submit">
+			</label>
+
+		</form>
+	</body>
+</html>
