@@ -1,0 +1,46 @@
+<!DOCTYPE  HTML>
+<html>
+	<head>
+		<title>Application Form</title>
+		<style>
+			<link rel="stylesheet" type="text/css" href="./static/style.css">
+		</style>
+	</head>
+	<body>
+		<h1>Job Application Form</h1>
+		<p> Thank you for considering a job at Ubermelon. We are excited to get to know you. But before we do, please take a moment to tell us a bit about yourself. Once you have submitted this form we will contact you if we feel you are a good fit for Ubermelon!
+		</p>
+
+		<form action="/submitted">
+			<label>First Name<input type="text" name="firstname">
+			</label>
+			
+			<br><br>
+			
+			<label>Last Name<input type="text" name="lastname">
+			</label>
+			
+			<br><br>
+			
+			<label>What are your salary requirements?
+				<input type="text" name="salary">
+			</label>
+			
+			<br><br>
+
+			<label> What job are you applying for?
+				<select name="job">
+					<option value="software_engineer">Software Engineer</option>
+					<option value="qa_engineer">QA Engineer</option>
+					<option value="product_manager">Product Manager</option>
+				</select>
+			</label>
+			
+			<br><br>
+			
+			<label> Press Submit:
+				<input type="submit" name="submit">
+			</label>
+		</form>
+	</body>
+</html>
