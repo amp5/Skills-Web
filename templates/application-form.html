@@ -3,7 +3,7 @@
 	<head>
 		<title>Application Form</title>
 		<style>
-			<link rel="stylesheet" type="text/css" href="./static/style.css">
+			<link rel="stylesheet" type="text/css" href="./static/styles.css">
 		</style>
 	</head>
 	<body>
@@ -12,17 +12,17 @@
 		</p>
 
 		<form action="/submitted">
-			<label>First Name<input type="text" name="firstname">
+			<label class="text-box">First Name<input type="text" name="firstname">
 			</label>
 			
 			<br><br>
 			
-			<label>Last Name<input type="text" name="lastname">
+			<label class="text-box">Last Name<input type="text" name="lastname">
 			</label>
 			
 			<br><br>
 			
-			<label>What are your salary requirements?
+			<label class="text-box">What are your salary requirements?
 				<input type="text" name="salary">
 			</label>
 			
@@ -38,7 +38,7 @@
 			
 			<br><br>
 			
-			<label> Press Submit:
+			<label id="submit"> Press Submit:
 				<input type="submit" name="submit">
 			</label>
 		</form>
